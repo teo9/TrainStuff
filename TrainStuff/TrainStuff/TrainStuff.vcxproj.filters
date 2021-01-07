@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{42a469b1-dac9-48e2-b0ea-a9a56ceb7e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{2eb5242d-0313-44b1-828e-ac5b4310b827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Train">
+      <UniqueIdentifier>{2acb3205-eb6e-4084-8b7b-fb3f244b680c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Station">
+      <UniqueIdentifier>{24609d40-2055-44df-9a89-3cd8c73bba41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Platform">
+      <UniqueIdentifier>{080b46c9-bc4a-4700-83cd-e61a5adfd70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\TimeManagement">
+      <UniqueIdentifier>{6bde49b6-3c5a-4d41-880a-6ae8c4559fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Data">
+      <UniqueIdentifier>{4d67e74c-05d3-4c6f-be09-a51ac2741f77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TrainStuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Train.cpp">
+      <Filter>src\Train</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Station.cpp">
+      <Filter>src\Station</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform.cpp">
+      <Filter>src\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeManagement.cpp">
+      <Filter>src\TimeManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser.cpp">
+      <Filter>src\Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Train.h">
+      <Filter>src\Train</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Station.h">
+      <Filter>src\Station</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform.h">
+      <Filter>src\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TimeManagement.h">
+      <Filter>src\TimeManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parser.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

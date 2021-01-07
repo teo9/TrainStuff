@@ -1,0 +1,9 @@
+Stazione_a 0 1
+Stazione_b 25 0
+Stazione_c 75 0
+Stazione_d 120 1
+Stazione_e 180 0
+Stazione_f 220 0
+Stazione_g 280 1
+Stazione_h 330 0
+Stazione_i 400 1
